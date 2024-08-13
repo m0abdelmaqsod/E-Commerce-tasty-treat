@@ -1,8 +1,7 @@
-# React + Vite
+# E-Commerce_tasty_treat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**I developed the E-commerce Restaurant project. The project is a platform for online restaurants. The project includes a set of features and functions such as the food menu, adding meals to the cart, customizing orders, the purchase and payment process, account management, and restaurant evaluation. It aims to roviding a service ordering and delivery services to users and enable them to order Online meals.**
 
-Currently, two official plugins are available:
+## Project techniques:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+`Next.js`  | `sass` 
