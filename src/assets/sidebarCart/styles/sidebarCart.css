@@ -1,0 +1,402 @@
+.div_sidebar,
+.sidebarClose {
+    background-color: #0000009f;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1;
+    transition: all 0.5s;
+}
+
+.div_sidebar .sidebarCart {
+    background-color: #fff;
+    width: 30%;
+    border-radius: 5px;
+
+}
+
+.sidebarClose {
+    width: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.sidebarCart .btn_close {
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebarCart .allCart {
+    margin: 20px 0 5px;
+    overflow: scroll;
+    height: 72vh;
+    position: relative;
+}
+
+.sidebarCart .allCart .no_pro{
+    text-align: center;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #ffc7c7;
+}
+
+.sidebarCart .allCart::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.sidebarCart .allCart .singleProCart {
+    border-bottom: 1px solid #00000011;
+    padding-bottom: 15px;
+}
+
+.sidebarCart .allCart .singleProCart:hover .div_img img {
+    transform: scale(1.2);
+}
+
+.sidebarCart .allCart .singleProCart .div_img {
+    width: 60px;
+    margin-right: 15px;
+}
+
+.sidebarCart .allCart .singleProCart .div_img img {
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: start;
+    transition: all 0.5s;
+}
+
+.sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+    font-size: 14px;
+}
+
+.sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+    font-size: 12px;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price h5 {
+    font-size: 12px;
+    font-weight: 700;
+    color: crimson;
+}
+
+.sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec {
+    background-color: #FDE4E4;
+    width: 110px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec button {
+    width: 28px;
+    height: 30px;
+    font-size: 18px;
+}
+
+.sidebarCart .allCart .singleProCart .btn_delete {
+    margin: 30px;
+}
+
+
+
+.sidebarCart .totalPrice {
+    background-color: #df2020;
+    position: absolute;
+    bottom: 0;
+    width: 25%;
+    padding: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sidebarCart .totalPrice p {
+    color: #fff;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Responsive === */
+@media (max-width: 360px) {
+
+    .div_sidebar .sidebarCart {
+        width: 80%;
+    }
+
+    .sidebarCart .btn_close {
+        width: 25px;
+        height: 25px;
+    }
+
+    .sidebarCart .allCart {
+        height: 67vh;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+        font-size: 13px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+        width: 110px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec button {
+        font-size: 16px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec p {
+        font-size: 14px;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 10px;
+    }
+
+    .sidebarCart .totalPrice {
+        padding: 30px 10px;
+        width: 80%;
+    }
+
+    .sidebarCart .totalPrice p {
+        font-size: 12px;
+    }
+
+    .sidebarCart .totalPrice button {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 360px) {
+    .div_sidebar .sidebarCart {
+        width: 70%;
+    }
+
+    .sidebarCart .btn_close {
+        width: 25px;
+        height: 25px;
+    }
+
+    .sidebarCart .allCart {
+        height: 67vh;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+        font-size: 13px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+        width: 110px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec button {
+        font-size: 16px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec p {
+        font-size: 14px;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 15px;
+    }
+
+    .sidebarCart .totalPrice {
+        padding: 30px 10px;
+        width: 70%;
+    }
+
+    .sidebarCart .totalPrice p {
+        font-size: 12px;
+    }
+
+    .sidebarCart .totalPrice button {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+@media (min-width: 768px) {
+    .div_sidebar .sidebarCart {
+        width: 45%;
+    }
+
+    .sidebarCart .btn_close {
+        width: 28px;
+        height: 28px;
+    }
+
+    .sidebarCart .allCart {
+        height: 68vh;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+        font-size: 14px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+        width: 120px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec button {
+        font-size: 17px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec {
+        width: 120px;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 20px;
+    }
+
+    .sidebarCart .totalPrice {
+        padding: 25px 20px;
+        width: 45%;
+    }
+
+    .sidebarCart .totalPrice p {
+        font-size: 15px;
+    }
+
+    .sidebarCart .totalPrice button {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media (min-width: 860px) {
+    .div_sidebar .sidebarCart {
+        width: 40%;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+        font-size: 15px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+        width: 115px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec button {
+        font-size: 17px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec {
+        width: 115px;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 25px;
+    }
+
+    .sidebarCart .totalPrice {
+        width: 40%;
+    }
+}
+
+
+
+
+
+@media (min-width: 1024px) {
+    .div_sidebar .sidebarCart {
+        width: 35%;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 30px;
+    }
+
+    .sidebarCart .totalPrice {
+        width: 35%;
+    }
+
+    .sidebarCart .totalPrice p {
+        font-size: 16px;
+    }
+
+    .sidebarCart .totalPrice button {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    .div_sidebar .sidebarCart {
+        width: 30%;
+    }
+
+    .sidebarCart .allCart {
+        height: 72vh;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart h3 {
+        font-size: 16px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .quantity_price {
+        width: 110px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec {
+        width: 110px;
+    }
+
+    .sidebarCart .allCart .singleProCart .infoSingleProCart .btn_inc_and_dec p {
+        font-size: 15px;
+    }
+
+    .sidebarCart .allCart .singleProCart .btn_delete {
+        margin: 30px;
+    }
+
+    .sidebarCart .totalPrice {
+        padding: 25px;
+        width: 30%;
+    }
+}

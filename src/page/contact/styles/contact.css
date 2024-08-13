@@ -1,0 +1,344 @@
+.contactUs {
+    padding-top: 14vh;
+}
+
+
+/* ======= start of banner ======= */
+.contactUs .banner {
+    height: 35vh;
+    position: relative;
+}
+
+.contactUs .banner img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.contactUs .banner h3 {
+    color: #fff;
+    background-color: #000000b6;
+    font-weight: 600;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contactUs .banner h3 span {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/* ======= start of maps ======= */
+.contactUs .maps {
+    margin-top: 10vh;
+}
+
+.contactUs .maps iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+/* ======= start of details contact ======= */
+.contactUs .details_contact {
+    margin: 10vh 0;
+}
+
+.contactUs .details_contact .info .div_info {
+    display: flex;
+}
+
+.contactUs .details_contact .info .div_info .icon_info {
+    font-size: 24px;
+    margin-right: 20px;
+    color: crimson;
+}
+
+.contactUs .details_contact .info .div_info .div_cont h5 {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.contactUs .details_contact .info .div_info .div_cont p {
+    color: #888;
+    font-size: 14px;
+}
+
+
+
+
+
+.contactUs .details_contact form input,
+.contactUs .details_contact form textarea {
+    border: 1px solid #00000050;
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+.contactUs .details_contact form input {
+    margin-bottom: 20px;
+}
+
+.contactUs .details_contact form textarea {
+    height: 30vh;
+}
+
+.contactUs .details_contact .btn_send_mass {
+    text-align: end;
+    margin-top: 5vh;
+}
+
+.contactUs .details_contact .btn_send_mass button {
+    padding: 15px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Responsive ======= */
+@media (max-width:360px) {
+    .contactUs {
+        padding-top: 17vh;
+    }
+
+    .contactUs .banner {
+        height: 25vh;
+    }
+
+    .contactUs .banner img {
+        height: 25vh;
+    }
+
+    .contactUs .banner h3 {
+        font-size: 25px;
+    }
+
+    .contactUs .banner h3 span {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+    /* ======= start of maps ======= */
+    .contactUs .maps iframe {
+        height: 50vh;
+    }
+
+
+    /* ======= start of details contact ======= */
+    .contactUs .details_contact .info {
+        margin: 0 0 3vh;
+    }
+
+    .contactUs .details_contact .info .div_info .icon_info {
+        font-size: 20px;
+    }
+
+    .contactUs .details_contact .info .div_info .div_cont h5 {
+        font-size: 16px;
+    }
+
+    .contactUs .details_contact .info .div_info .div_cont p {
+        font-size: 13px;
+    }
+
+
+
+    .contactUs .details_contact .btn_send_mass {
+        text-align: center;
+    }
+
+    .contactUs .details_contact .btn_send_mass button {
+        padding: 10px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:360px) {
+    .contactUs {
+        padding-top: 16vh;
+    }
+
+    .contactUs .banner {
+        height: 30vh;
+    }
+
+    .contactUs .banner img {
+        height: 30vh;
+    }
+
+    .contactUs .banner h3 {
+        font-size: 28px;
+    }
+
+    .contactUs .banner h3 span {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+    /* ======= start of maps ======= */
+    .contactUs .maps iframe {
+        height: 60vh;
+    }
+
+
+    /* ======= start of details contact ======= */
+    .contactUs .details_contact .info {
+        margin: 0 0 3vh;
+    }
+
+    .contactUs .details_contact .info .div_info .icon_info {
+        font-size: 24px;
+    }
+
+    .contactUs .details_contact .info .div_info .div_cont h5 {
+        font-size: 17px;
+    }
+
+    .contactUs .details_contact .info .div_info .div_cont p {
+        font-size: 14px;
+    }
+
+
+
+    .contactUs .details_contact .btn_send_mass {
+        text-align: center;
+    }
+
+    .contactUs .details_contact .btn_send_mass button {
+        padding: 10px 15px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) {
+    .foods .banner h3 {
+        font-size: 28px;
+    }
+
+    .foods .banner h3 span {
+        left: 25%;
+        transform: translate(-25%, -50%);
+    }
+
+
+
+    /* ======= start of maps ======= */
+    .contactUs .maps iframe {
+        height: 70vh;
+    }
+
+
+    /* ======= start of details contact ======= */
+    .contactUs .details_contact form textarea {
+        height: 35vh;
+    }
+}
+
+
+
+
+
+
+
+
+@media (min-width:860px) {
+    .foods .banner {
+        height: 35vh;
+    }
+
+    .foods .banner img {
+        height: 35vh;
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+
+    /* ======= start of details contact ======= */
+    .contactUs .details_contact .info {
+        margin: 0 0 0vh;
+    }
+
+    /* .contactUs .details_contact form textarea {
+        height: 35vh;
+    } */
+
+    .contactUs .details_contact .btn_send_mass {
+        text-align: end;
+    }
+
+    .contactUs .details_contact .btn_send_mass button {
+        padding: 15px 20px;
+    }
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    /* ======= start of textarea ======= */
+
+    .contactUs .details_contact form textarea {
+        height: 30vh;
+    }
+}

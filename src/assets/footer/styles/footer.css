@@ -1,0 +1,191 @@
+.footer {
+    background-color: #FDE4E4;
+    padding: 10vh;
+}
+
+.footer h3 {
+    font-size: 17px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.footer .logo_footer a img {
+    width: 60px;
+    margin-bottom: 5px;
+}
+
+.footer .logo_footer a h3 {
+    font-size: 16px;
+}
+
+.footer .logo_footer p {
+    font-size: 12px;
+    line-height: 30px;
+    margin-top: 20px;
+    color: #707070;
+}
+
+
+.footer .delivery_time h5 {
+    font-size: 14px;
+}
+
+.footer .contact h5 {
+    font-size: 14px;
+}
+
+.footer .contact div h5 {
+    margin-bottom: 3vh;
+}
+
+
+
+
+
+.footer .newsletter form {
+    margin: 10px 0 0;
+}
+
+.footer .newsletter form label {
+    color: #707070;
+    font-size: 13px;
+}
+
+.footer .newsletter form .btn_input {
+    border: 1px solid #000;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.footer .newsletter form .btn_input input {
+    background-color: transparent;
+    width: 100%;
+    border: 0;
+    outline: none;
+    padding: 0 0 0 15px;
+}
+
+.footer .newsletter form .btn_input input::placeholder {
+    font-size: 13px;
+    color: #888;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Responsive === */
+@media (max-width:360px) {
+    .footer {
+        padding: 10vh 15px;
+        text-align: center;
+    }
+
+    .footer .logo_footer a img {
+        display: flex;
+        margin: auto;
+    }
+
+    .footer .logo_footer p {
+        font-size: 13px;
+    }
+
+
+    .footer .delivery_time h5 {
+        font-size: 13px;
+    }
+
+    .footer .contact h5 {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+@media (min-width:360px) {
+    .footer {
+        padding: 10vh 15px;
+        text-align: center;
+    }
+
+    .footer .logo_footer a img {
+        display: flex;
+        margin: auto;
+    }
+
+    .footer .logo_footer p {
+        font-size: 13px;
+    }
+
+
+    .footer .delivery_time h5 {
+        font-size: 13px;
+    }
+
+    .footer .contact h5 {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .footer {
+        padding: 10vh 35px;
+        text-align: start;
+    }
+
+    .footer .logo_footer a img {
+        margin: 0;
+    }
+
+    .footer .logo_footer p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (min-width:860px) {
+    .footer {
+        padding: 10vh;
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .footer .delivery_time h5 {
+        font-size: 14px;
+    }
+
+    .footer .contact h5 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+/* @media (min-width:1200px) {} */

@@ -1,0 +1,163 @@
+/* ======= start of You might also like ====== */
+.you_might_also_like {
+    margin-top: 10vh;
+}
+
+.you_might_also_like h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+/* ======= start of all pro popular ====== */
+.you_might_also_like .all_pro_popular {
+    margin-top: 10vh;
+}
+
+/* ======= start of product ====== */
+.you_might_also_like .all_pro_popular .pro {
+    border: 1px solid #fd202025;
+    text-align: center;
+}
+
+.you_might_also_like .all_pro_popular .pro img {
+    width: 115px;
+    transition: all 0.5s;
+}
+
+.you_might_also_like .all_pro_popular .pro:hover img {
+    transform: scale(1.2);
+}
+
+.you_might_also_like .all_pro_popular .pro h5 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.you_might_also_like .all_pro_popular .pro .price_btn {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.you_might_also_like .all_pro_popular .pro .price_btn p {
+    margin: 0;
+    color: #FD2020;
+}
+
+.you_might_also_like .all_pro_popular .pro .price_btn button {
+    font-size: 14px;
+    background-color: #FD2020;
+}
+
+
+
+
+
+
+
+/* ====== start of Other products you may like ===== */
+.OtherProYouMayLike {
+    margin-top: 10vh;
+}
+
+.OtherProYouMayLike h3 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* ======= start of product ====== */
+.OtherProYouMayLike .pro {
+    border: 1px solid #fd202025;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+.OtherProYouMayLike .pro img {
+    width: 115px;
+    transition: all 0.5s;
+}
+
+.OtherProYouMayLike .pro:hover img {
+    transform: scale(1.2);
+}
+
+.OtherProYouMayLike .pro h5 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.OtherProYouMayLike .pro .price_btn {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.OtherProYouMayLike .pro .price_btn p {
+    margin: 0;
+    color: #FD2020;
+}
+
+.OtherProYouMayLike .pro .price_btn button {
+    font-size: 14px;
+    background-color: #FD2020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Responsive ======= */
+@media (max-width:360px) {
+    .you_might_also_like h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+}
+
+@media (min-width:360px) {
+    .you_might_also_like h3 {
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .you_might_also_like h3 {
+        text-align: start;
+        font-size: 23px;
+    }
+}
+
+@media (min-width:860px) {
+    .you_might_also_like h3 {
+        font-size: 24px;
+    }
+}
+
+@media (min-width:1024px) {
+    .you_might_also_like h3 {
+        font-size: 23px;
+    }
+}
+
+@media (min-width:1200px) {
+    .you_might_also_like h3 {
+        font-size: 24px;
+    }
+}

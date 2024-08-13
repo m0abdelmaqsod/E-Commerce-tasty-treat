@@ -1,0 +1,373 @@
+/* ======= start of cart ======= */
+.cart {
+    padding-top: 13vh;
+}
+
+
+/* ======= start of banner ======= */
+.cart .banner {
+    height: 35vh;
+    position: relative;
+}
+
+.cart .banner img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.cart .banner h3 {
+    color: #fff;
+    background-color: #000000b6;
+    font-weight: 600;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cart .banner h3 span {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ======= start of div cart ======= */
+.cart .div_cart {
+    margin: 10vh 0;
+}
+
+.cart .div_cart .no_pro {
+    text-align: center;
+    margin: 8vh 0;
+    font-size: 25px;
+    padding-bottom: 5vh;
+    border-bottom: 1px solid #fd202052;
+}
+
+.cart .div_cart table {
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+.cart .div_cart table thead tr th,
+.cart .div_cart table tbody tr td {
+    border: 1px solid #0000003a;
+    text-align: center;
+    height: 100px;
+}
+
+.cart .div_cart table thead tr th {
+    border-bottom: 2px solid #000;
+    height: 50px;
+}
+
+.cart .div_cart table tbody tr td img {
+    width: 70px;
+    object-fit: contain;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.cart .div_cart table tbody tr {
+    background-color: #fff;
+}
+
+.cart .div_cart table tbody tr:hover td img {
+    transform: scale(1.2);
+}
+
+.cart .div_cart table tbody tr td p {
+    cursor: pointer;
+}
+
+.cart .div_cart table tbody tr td button {
+    color: crimson;
+    padding: 10px;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* ====== start of total price ====== */
+.cart .div_cart .total_price {
+    margin-top: 5vh;
+}
+
+.cart .div_cart .total_price h5 span {
+    color: crimson;
+    font-size: 24px;
+}
+
+.cart .div_cart .total_price p {
+    font-size: 14px;
+    margin: 20px 0;
+}
+
+.cart .div_cart .total_price .btn_shop_and_checkout a button {
+    font-size: 13px;
+    margin-right: 25px;
+    width: 200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======= Responsive ====== */
+@media (max-width:360px) {
+    .cart .banner {
+        height: 25vh;
+    }
+
+    .cart .banner img {
+        height: 25vh;
+    }
+
+    .cart .banner h3 {
+        font-size: 24px;
+    }
+
+    .cart .banner h3 span {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+
+
+    /* ======= start of div cart ======= */
+    .cart .div_cart .no_pro {
+        font-size: 16px;
+    }
+
+    .cart .div_cart table thead tr th {
+        font-size: 12px;
+    }
+
+    .cart .div_cart table tbody tr td {
+        font-size: 11px;
+    }
+
+    .cart .div_cart table tbody tr td img {
+        width: 60px;
+    }
+
+    .cart .div_cart table tbody tr:hover td img {
+        transform: scale(1);
+    }
+
+    .cart .div_cart table tbody tr td button {
+        padding: 0px;
+        font-size: 16px;
+    }
+
+
+
+
+
+    /* ====== start of total price ====== */
+    .cart .div_cart .total_price .btn_shop_and_checkout a button {
+        font-size: 14px;
+        margin: 0 0 20px 0;
+        width: 180px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:360px) {
+
+    .cart .banner {
+        height: 30vh;
+    }
+
+    .cart .banner img {
+        height: 30vh;
+    }
+
+    .cart .banner h3 span {
+        transform: translate(-20%, -50%);
+    }
+
+
+
+
+
+
+
+    /* ======= start of div cart ======= */
+    .cart .div_cart .no_pro {
+        font-size: 20px;
+    }
+
+    .cart .div_cart table thead tr th {
+        font-size: 14px;
+    }
+
+    .cart .div_cart table tbody tr td {
+        font-size: 13px;
+    }
+
+    .cart .div_cart table tbody tr td img {
+        width: 70px;
+    }
+
+    /* .cart .div_cart table tbody tr:hover td img {
+        transform: scale(1);
+    } */
+
+    .cart .div_cart table tbody tr td button {
+        padding: 5px;
+        font-size: 16px;
+    }
+
+
+
+
+
+    /* ====== start of total price ====== */
+    .cart .div_cart .total_price .btn_shop_and_checkout a button {
+        font-size: 14px;
+        margin: 0 20px 20px 0;
+    }
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .cart .banner {
+        height: 30vh;
+    }
+
+    .cart .banner img {
+        height: 30vh;
+    }
+
+    .cart .banner h3 span {
+        transform: translate(-30%, -50%);
+    }
+
+
+
+
+
+
+    /* ======= start of div cart ======= */
+    .cart .div_cart .no_pro {
+        font-size: 24px;
+    }
+
+    .cart .div_cart table thead tr th {
+        font-size: 16px;
+    }
+
+    .cart .div_cart table tbody tr td {
+        font-size: 16px;
+    }
+
+    /* .cart .div_cart table tbody tr:hover td img {
+        transform: scale(1);
+    } */
+
+    .cart .div_cart table tbody tr td button {
+        padding: 8px;
+        font-size: 18px;
+    }
+
+
+
+
+
+    /* ====== start of total price ====== */
+    .cart .div_cart .total_price .btn_shop_and_checkout a button {
+        margin: 0 25px 20px 0;
+    }
+}
+
+
+
+
+
+
+@media (min-width:860px) {
+    .cart .banner {
+        height: 35vh;
+    }
+
+    .cart .banner img {
+        height: 35vh;
+    }
+
+    .cart .banner h3 span {
+        transform: translate(-35%, -50%);
+    }
+    
+
+
+
+    /* ======= start of div cart ======= */
+
+    .cart .div_cart table tbody tr:hover td img {
+        transform: scale(1.2);
+    }
+
+    .cart .div_cart table tbody tr td button {
+        padding: 10px;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+/* @media (min-width: 1024px) {} */
+
+
+
+
+
+
+/* @media (min-width: 1200px) {} */

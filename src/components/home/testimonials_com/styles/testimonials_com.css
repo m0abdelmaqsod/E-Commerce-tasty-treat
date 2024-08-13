@@ -1,0 +1,156 @@
+.testimonials_com {
+    margin-top: 15vh;
+    padding-bottom: 15vh;
+}
+
+.testimonials_com h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: crimson;
+}
+
+.testimonials_com h2 {
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.testimonials_com h2 span {
+    color: crimson;
+}
+
+
+.testimonials_com .div_swiper .mySwiper {
+    z-index: 0;
+}
+
+.testimonials_com .div_swiper .mySwiper .com p {
+    color: #888;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.testimonials_com .div_swiper .mySwiper .com .name_com {
+    align-items: center;
+}
+
+.testimonials_com .div_swiper .mySwiper .com .name_com img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.testimonials_com .div_swiper .mySwiper .com .name_com h5 {
+    font-size: 14px;
+}
+
+
+
+.testimonials_com .div_img img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Responsive === */
+@media (max-width:360px) {
+    .testimonials_com {
+        margin-top: 8vh;
+    }
+
+    .testimonials_com h2 {
+        font-size: 25px;
+    }
+
+    .testimonials_com .div_swiper .mySwiper .com p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+@media (min-width:360px) {
+    .testimonials_com {
+        margin-top: 8vh;
+    }
+
+    .testimonials_com h2 {
+        font-size: 25px;
+    }
+
+    .testimonials_com .div_swiper .mySwiper .com p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .testimonials_com h3 {
+        font-size: 16px;
+    }
+}
+
+
+
+
+
+@media (min-width:860px) {
+    .testimonials_com h3 {
+        font-size: 17px;
+    }
+
+    .testimonials_com .div_swiper .mySwiper .com p {
+        font-size: 12px;
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .testimonials_com {
+        margin-top: 10vh;
+    }
+
+    .testimonials_com h2 {
+        font-size: 28px;
+    }
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    .testimonials_com {
+        margin-top: 15vh;
+    }
+
+    .testimonials_com h2 {
+        font-size: 30px;
+    }
+}

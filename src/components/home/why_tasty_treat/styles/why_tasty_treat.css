@@ -1,0 +1,162 @@
+.tasty_treat {
+    margin-top: 20vh;
+}
+
+.tasty_treat .img_why_tasty_treat img {
+    width: 100%;
+}
+
+
+.tasty_treat .div_why_tasty_treat h3 {
+    color: black;
+    font-weight: 700;
+}
+
+.tasty_treat .div_why_tasty_treat span {
+    color: crimson;
+}
+
+.tasty_treat .div_why_tasty_treat p {
+    color: #888;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+.tasty_treat .div_why_tasty_treat .features_tasty_treat {
+    background-color: #fff;
+}
+
+.tasty_treat .div_why_tasty_treat .features_tasty_treat div {
+    margin-bottom: 25px;
+}
+
+.tasty_treat .div_why_tasty_treat .features_tasty_treat h5 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:360px) {
+    .tasty_treat {
+        margin-top: 0vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat {
+        text-align: center;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 12px;
+    }
+
+    .tasty_treat .div_why_tasty_treat .features_tasty_treat div {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+@media (min-width:360px) {
+    .tasty_treat {
+        margin-top: 0vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat {
+        text-align: center;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 12px;
+    }
+
+    .tasty_treat .div_why_tasty_treat .features_tasty_treat div {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .tasty_treat {
+        margin-top: 10vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat {
+        text-align: start;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 11px;
+    }
+
+    .tasty_treat .div_why_tasty_treat .features_tasty_treat div {
+        margin-bottom: 20px;
+    }
+}
+
+
+
+
+
+@media (min-width:860px) {
+    .tasty_treat {
+        margin-top: 15vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 12px;
+    }
+
+    .tasty_treat .div_why_tasty_treat .features_tasty_treat div {
+        margin-bottom: 25px;
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .tasty_treat {
+        margin-top: 18vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    .tasty_treat {
+        margin-top: 20vh;
+    }
+
+    .tasty_treat .div_why_tasty_treat p {
+        font-size: 14px;
+    }
+}

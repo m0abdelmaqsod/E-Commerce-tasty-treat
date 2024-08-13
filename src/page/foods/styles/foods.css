@@ -1,0 +1,413 @@
+.foods {
+    padding-top: 16vh;
+}
+
+.foods .banner {
+    height: 35vh;
+    position: relative;
+}
+
+.foods .banner img {
+    width: 100%;
+    height: 35vh;
+    object-fit: cover;
+}
+
+.foods .banner h3 {
+    color: #fff;
+    background-color: #000000b6;
+    font-weight: 600;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foods .banner h3 span {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+.all_foods form {
+    margin-top: 8vh;
+}
+
+.all_foods form .search_pro {
+    justify-content: space-between;
+}
+
+.all_foods form .search_pro input {
+    width: 100%;
+    padding: 10px;
+}
+
+.all_foods form .search_pro label {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.all_foods form .select {
+    justify-content: flex-end;
+}
+
+.all_foods form .select select {
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+.all_foods form .search_pro,
+.all_foods form .select select {
+    background-color: #fff;
+    outline: none;
+    border: 1px solid #fd202025;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+.all_foods .foods_Pro {
+    margin-top: 7vh;
+}
+
+/* ======= start of product ====== */
+.all_foods .foods_Pro .pro {
+    border: 1px solid #fd202025;
+    text-align: center;
+}
+
+.all_foods .foods_Pro .pro img {
+    width: 115px;
+    transition: all 0.5s;
+}
+
+.all_foods .foods_Pro .pro:hover img {
+    transform: scale(1.2);
+}
+
+.all_foods .foods_Pro .pro h5 {
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.all_foods .foods_Pro .pro .price_btn {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.all_foods .foods_Pro .pro .price_btn p {
+    margin: 0;
+    color: #FD2020;
+}
+
+.all_foods .foods_Pro .pro .price_btn button {
+    font-size: 14px;
+    background-color: #FD2020;
+}
+
+
+
+
+
+
+
+
+
+/* =======  pagination ======= */
+.foods .pagination {
+    justify-content: center;
+    margin: 5vh 0 15vh;
+}
+
+.foods .pagination .btn_pag button {
+    background-color: #212245;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.foods .pagination .btn_pag button:hover {
+    background-color: #FD2020;
+}
+
+.foods .pagination .btn_pag .disabled {
+    background-color: #2122456b;
+    cursor: no-drop;
+}
+
+.foods .pagination .btn_pag .disabled:hover {
+    background-color: #2122456b;
+}
+
+.foods .pagination .btn_num {
+    margin: 0 15px;
+}
+
+.foods .pagination .btn_num button {
+    background-color: #212245;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.foods .pagination .btn_num .activeBtnNum {
+    background-color: #FD2020;
+}
+
+.foods .pagination .btn_num button:hover {
+    background-color: #FD2020;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Responsive ======== */
+@media (max-width:360px) {
+    .foods {
+        padding-top: 17vh;
+    }
+
+    .foods .banner {
+        height: 25vh;
+    }
+
+    .foods .banner img {
+        height: 25vh;
+    }
+
+    .foods .banner h3 {
+        font-size: 25px;
+    }
+
+    .foods .banner h3 span {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+    .all_foods form .rowGap {
+        row-gap: 5vh;
+    }
+
+    .all_foods form .select select {
+        width: 100%;
+    }
+
+
+    .all_foods .foods_Pro {
+        margin-top: 7vh;
+    }
+
+
+    /* =======  pagination ======= */
+    .foods .pagination .btn_prev button,
+    .btn_next button {
+        width: 45px;
+        height: 35px;
+    }
+
+    .foods .pagination .btn_num {
+        margin: 0 10px;
+    }
+
+    .foods .pagination .btn_num button {
+        margin: 0 5px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:360px) {
+    .foods {
+        padding-top: 16vh;
+    }
+
+    .foods .banner {
+        height: 30vh;
+    }
+
+    .foods .banner img {
+        height: 30vh;
+    }
+
+    .foods .banner h3 {
+        font-size: 28px;
+    }
+
+    .foods .banner h3 span {
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+
+
+
+    .all_foods form .rowGap {
+        row-gap: 5vh;
+    }
+
+    .all_foods form .select select {
+        width: 100%;
+    }
+
+    /* =======  pagination ======= */
+    .foods .pagination .btn_prev button,
+    .btn_next button {
+        width: 45px;
+        height: 35px;
+    }
+
+    .foods .pagination .btn_num {
+        margin: 0 10px;
+    }
+
+    .foods .pagination .btn_num button {
+        margin: 0 5px;
+        width: 35px;
+        height: 35px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:768px) {
+    .foods .banner h3 {
+        font-size: 28px;
+    }
+
+    .foods .banner h3 span {
+        left: 25%;
+        transform: translate(-25%, -50%);
+    }
+
+
+    .all_foods form .select select {
+        width: 70%;
+    }
+}
+
+
+
+
+
+
+@media (min-width:860px) {
+    .foods .banner {
+        height: 35vh;
+    }
+
+    .foods .banner img {
+        height: 35vh;
+    }
+
+    /* =======  pagination ======= */
+    .foods .pagination .btn_prev button,
+    .btn_next button {
+        width: 50px;
+        height: 40px;
+    }
+
+    .foods .pagination .btn_num {
+        margin: 0 15px;
+    }
+
+    .foods .pagination .btn_num button {
+        margin: 0 8px;
+        width: 40px;
+        height: 40px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:1024px) {
+    .foods .banner h3 {
+        font-size: 30px;
+    }
+
+    .all_foods form .select select {
+        width: 60%;
+    }
+
+
+    /* =======  pagination ======= */
+    .foods .pagination .btn_prev button,
+    .btn_next button {
+        width: 55px;
+    }
+}
+
+
+
+
+
+
+@media (min-width:1200px) {
+    .foods .banner h3 {
+        font-size: 34px;
+    }
+
+    .all_foods form .select select {
+        width: 50%;
+    }
+}

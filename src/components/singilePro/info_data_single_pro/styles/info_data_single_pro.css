@@ -1,0 +1,557 @@
+.info_single_pro {
+    margin-top: 5vh;
+}
+
+.info_single_pro .nav_info_pro {
+    border-bottom: 1px solid #FDE4E4;
+}
+
+.info_single_pro .nav_info_pro button {
+    margin-right: 40px;
+    width: 120px;
+    height: 60px;
+    transition: all 0.5s;
+}
+
+.info_single_pro .nav_info_pro .activeNavInfo {
+    color: crimson;
+    border-bottom: 1px solid crimson;
+}
+
+.info_single_pro .data_info_pro {
+    margin-top: 5vh;
+}
+
+.info_single_pro .data_info_pro .description p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #888;
+}
+
+
+
+.info_single_pro .data_info_pro .review .mesReview {
+    text-align: center;
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.info_single_pro .data_info_pro .review h3 {
+    font-size: 18px;
+    margin-bottom: 8vh;
+    text-align: center;
+}
+
+.info_single_pro .data_info_pro .review .com_pro {
+    border-bottom: 1px solid #FDE4E4;
+    padding-bottom: 20px;
+    margin-bottom: 5vh;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user {
+    justify-content: space-between;
+    padding-bottom: 2vh;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .img_user {
+    margin-right: 15px;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .img_user img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user a {
+    font-size: 12px;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time {
+    text-align: center;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess button {
+    color: #888;
+    cursor: auto;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess .one {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess .tow {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess .three {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess .four {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time .assess .five {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+    font-size: 14px;
+    color: #3f3f3f;
+}
+
+.info_single_pro .data_info_pro .review .com_pro p {
+    font-size: 14px;
+    color: #888;
+    margin: 2vh 0 0 30px;
+    line-height: 28px;
+}
+
+.info_single_pro .data_info_pro .review .btn_show_hide button {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+.info_single_pro .data_info_pro .review .row_sev_com {
+    column-gap: 50px;
+}
+
+.info_single_pro .data_info_pro .review .div_review .row_review {
+    row-gap: 2vh;
+}
+
+.info_single_pro .data_info_pro .review .div_review form {
+    background-color: #FDE4E4;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .assess {
+    align-items: center;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .assess h6 {
+    margin: 0 20px 0 0;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .assess button {
+    color: #888;
+    transition: all 0.5s;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .assess .start {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .assess button:hover {
+    color: #ffae00;
+}
+
+.info_single_pro .data_info_pro .review .div_review form input {
+    width: 100%;
+    border: 1px solid #74747498;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.info_single_pro .data_info_pro .review .div_review form textarea {
+    width: 100%;
+    height: 20vh;
+    padding: 10px 15px 30px;
+    border: 1px solid #74747498;
+    border-radius: 10px;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .errorMassing {
+    color: crimson;
+    font-size: 12px;
+    margin: 10px 0 0;
+}
+
+.info_single_pro .data_info_pro .review .div_review form .btn_submit {
+    justify-content: center;
+    margin: 15px 0 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media (max-width:360px) {
+    .info_single_pro {
+        margin-top: 10vh;
+    }
+
+    .info_single_pro .nav_info_pro button {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    .info_single_pro .data_info_pro {
+        margin-top: 5vh;
+    }
+
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review h3 {
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro {
+        padding-bottom: 15px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+        font-size: 14px;
+        margin: 0px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user a {
+        font-size: 11px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time button {
+        font-size: 14px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro p {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .btn_show_hide button {
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+    .info_single_pro .data_info_pro .review .row_sev_com {
+        row-gap: 10vh;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review .row_review {
+        row-gap: 3vh;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form .assess h6 {
+        margin: 0 10px 0 0;
+    }
+
+    /* .info_single_pro .data_info_pro .review .div_review form .assess button {
+        margin-left: 5px;
+        font-size: 18px;
+    } */
+
+    .info_single_pro .data_info_pro .review .div_review form input {
+        padding: 10px;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form .errorMassing {
+        margin: 15px 0 0;
+    }
+}
+
+
+
+
+
+@media (min-width:360px) {
+    .info_single_pro {
+        margin-top: 10vh;
+    }
+
+    .info_single_pro .nav_info_pro button {
+        width: 110px;
+        font-size: 14px;
+    }
+
+    .info_single_pro .data_info_pro {
+        margin-top: 5vh;
+    }
+
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review h3 {
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+        font-size: 15px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user a {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+        font-size: 13px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time button {
+        font-size: 15px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro p {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .btn_show_hide button {
+        font-size: 13px;
+    }
+
+
+
+
+    .info_single_pro .data_info_pro .review .row_sev_com {
+        row-gap: 10vh;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form .assess h6 {
+        margin: 0 10px 0 0;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form input {
+        padding: 10px;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form .errorMassing {
+        margin: 10px 0 0;
+    }
+}
+
+
+
+
+
+@media (min-width:768px) {
+    .info_single_pro .nav_info_pro button {
+        width: 120px;
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+        font-size: 14px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user a {
+        font-size: 11px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time button {
+        font-size: 13px;
+    }
+
+
+
+
+    .info_single_pro .data_info_pro .review .row_sev_com {
+        column-gap: 20px;
+    }
+}
+
+
+
+
+
+@media (min-width:860px) {
+    .info_single_pro {
+        margin-top: 8vh;
+    }
+
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review h3 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+@media (min-width:1024px) {
+    .info_single_pro {
+        margin-top: 5vh;
+    }
+
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review h3 {
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user a {
+        font-size: 12px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+        font-size: 13px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time button {
+        font-size: 15px;
+    }
+
+    /* .info_single_pro .data_info_pro .review .com_pro p {
+        font-size: 12px;
+    } */
+
+    /* .info_single_pro .data_info_pro .review .btn_show_hide button {
+        font-size: 13px;
+    } */
+
+
+
+
+    /* .info_single_pro .data_info_pro .review .row_sev_com {
+        column-gap: 20px;
+    } */
+
+    /* .info_single_pro .data_info_pro .review .div_review form .assess h6 {
+        margin: 0 10px 0 0;
+    } */
+
+    /* .info_single_pro .data_info_pro .review .div_review form input {
+        padding: 10px;
+    } */
+
+    /* .info_single_pro .data_info_pro .review .div_review form .errorMassing {
+        margin: 10px 0 0;
+    } */
+}
+
+
+
+
+
+@media (min-width:1200px) {
+    .info_single_pro .data_info_pro .review .mesReview {
+        top: 20%;
+        padding: 0 0 5vh;
+        border-bottom: 1px solid #FDE4E4;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .info_user h5 {
+        font-size: 18px;
+    }
+
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time h6 {
+        font-size: 13px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro .data_com_user .message_time button {
+        font-size: 16px;
+    }
+
+    .info_single_pro .data_info_pro .review .com_pro p {
+        font-size: 14px;
+    }
+
+    .info_single_pro .data_info_pro .review .btn_show_hide button {
+        font-size: 14px;
+    }
+
+
+
+
+    .info_single_pro .data_info_pro .review .row_sev_com {
+        column-gap: 40px;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form .assess h6 {
+        margin: 0 20px 0 0;
+    }
+
+    .info_single_pro .data_info_pro .review .div_review form input {
+        padding: 15px;
+    }
+}

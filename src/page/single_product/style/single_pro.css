@@ -1,0 +1,56 @@
+.single_pro {
+    padding-top: 15vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* === Responsive === */
+@media (max-width:360px) {
+    .single_pro {
+        padding-top: 16vh;
+    }
+}
+
+@media (min-width:360px) {
+    /* .single_pro {
+        padding-top: 15vh;
+    } */
+}
+
+@media (min-width:768px) {
+    /* .single_pro {
+        padding-top: 15vh;
+    } */
+}
+
+@media (min-width:860px) {
+    /* .single_pro {
+        padding-top: 15vh;
+    } */
+}
+
+@media (min-width:1024px) {
+    .single_pro {
+        padding-top: 17vh;
+    }
+}
+
+@media (min-width:1200px) {
+    .single_pro {
+        padding-top: 14vh;
+    }
+}

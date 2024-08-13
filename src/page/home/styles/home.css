@@ -1,0 +1,44 @@
+.home {
+    background-color: #fcfcfc;
+    padding-top: 16vh;
+}
+
+
+
+
+
+
+
+
+/* === Responsive === */
+@media (max-width: 360px) {
+    .home {
+        padding-top: 16vh;
+    }
+}
+
+@media (min-width: 360px) {
+    .home {
+        padding-top: 15vh;
+    }
+}
+
+@media (min-width: 768px) {
+    /* .home {} */
+}
+
+@media (min-width: 860px) {
+    /* .home {} */
+}
+
+@media (min-width: 1024px) {
+    .home {
+        padding-top: 17vh;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home {
+        padding-top: 15vh;
+    }
+}
