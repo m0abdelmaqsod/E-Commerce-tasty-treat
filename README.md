@@ -4,4 +4,4 @@
 
 ## Project techniques:
 
-`Next.js`  | `sass` 
+`React.js`  | `react-bootstrap` |  `Reduxjs toolkit`
