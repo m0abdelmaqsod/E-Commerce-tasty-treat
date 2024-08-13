@@ -11,6 +11,10 @@ import { fetchProduct } from '../../store/products/apiPro';
 
 
 
+import imgBanner from "../../assets/images/banner-2.jpg";
+
+
+
 const Foods = () => {
     document.title = "All Foods";
 
@@ -74,7 +78,7 @@ const Foods = () => {
         <>
             <section className='foods'>
                 <div className="banner">
-                    <img src="../../../public/images/banner-2.jpg" alt="" />
+                    <img src={imgBanner} alt="" />
                     <h3><span>All Foods</span></h3>
                 </div>
 

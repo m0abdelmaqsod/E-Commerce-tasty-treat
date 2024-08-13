@@ -6,6 +6,10 @@ import { useDispatch, useSelector } from 'react-redux';
 import CartPro from '../../components/cart/cartProducts/CartPro';
 
 
+import imgBanner from "../../assets/images/banner-2.jpg";
+
+
+
 const Cart = () => {
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -25,7 +29,7 @@ const Cart = () => {
 
             {/* ====== start of banner ======= */}
             <div className="banner">
-                <img src="../../../public/images/banner-2.jpg" alt="" />
+                <img src={imgBanner} alt="" />
                 <h3><span>Your Cart</span></h3>
             </div>
 

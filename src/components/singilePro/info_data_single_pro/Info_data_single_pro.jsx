@@ -10,6 +10,15 @@ import "react-toastify/dist/ReactToastify.css";
 import { useDispatch, useSelector } from 'react-redux';
 import { getReviews } from '../../../store/products/apiPro';
 
+
+
+
+import imgComm from "../../../assets/images/user.png";
+
+
+
+
+
 const Info_data_single_pro = ({ dataPro }) => {
     const dispatch = useDispatch();
     // ======= handel get data ====== //
@@ -119,7 +128,7 @@ const Info_data_single_pro = ({ dataPro }) => {
                                                                             <div className="img_user">
                                                                                 {
                                                                                     product.imgUser === "" ?
-                                                                                        <img src="../../../../public/images/user.png" alt="" />
+                                                                                        <img src={imgComm} alt="" />
                                                                                         : <img src={product.imgUser} alt="" />
                                                                                 }
 

@@ -4,6 +4,8 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 import { FiMail, FiHome, FiHeadphones } from "react-icons/fi";
 
 
+import imgBanner from "../../assets/images/banner-2.jpg";
+
 
 const Contact = () => {
 
@@ -17,7 +19,7 @@ const Contact = () => {
             <section className='contactUs'>
                 {/* ====== start of banner ======= */}
                 <div className="banner">
-                    <img src="../../../public/images/banner-2.jpg" alt="" />
+                    <img src={imgBanner} alt="" />
                     <h3><span>Contact US</span></h3>
                 </div>
 

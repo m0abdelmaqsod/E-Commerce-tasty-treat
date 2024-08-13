@@ -5,6 +5,11 @@ import { useDispatch } from 'react-redux';
 import { cartActions } from '../../../store/shopping-cart/cartSlice';
 
 
+
+import imgBanner from "../../../assets/images/banner.jpg";
+
+
+
 const Single_pro_data = ({ data }) => {
 
 
@@ -25,7 +30,7 @@ const Single_pro_data = ({ data }) => {
             <div className="single_data">
 
                 <div className="banner">
-                    <img src="../../../../public/images/banner.jpg" alt="" />
+                    <img src={imgBanner} alt="" />
                     <h3><span>{namePro}</span></h3>
                 </div>
 

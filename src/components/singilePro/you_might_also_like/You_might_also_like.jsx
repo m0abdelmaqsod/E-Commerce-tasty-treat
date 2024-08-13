@@ -1,30 +1,17 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './styles/you_might_also_like.css';
 import { Container, Row, Col, Button } from 'react-bootstrap';
-import axios from 'axios';
 import { Link } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { cartActions } from '../../../store/shopping-cart/cartSlice';
-
+import { allProduct } from '../../../../Data';
 
 
 
 const You_might_also_like = ({ categoryPro }) => {
 
-    // ===== handel data ==== //
-    const [data, setData] = useState([]);
-
-
-    useEffect(() => {
-        axios.get('http://localhost:8000/allProduct')
-            .then((res) => setData(res.data))
-            .catch((error) => console.error(error))
-    }, [])
-
-
-
     // ===== handel filter Data Similar --> category ==== //
-    const filterData = data.filter((pro) => pro.category === categoryPro.category)
+    const filterData = allProduct.filter((pro) => pro.category === categoryPro.category)
 
 
 
@@ -33,7 +20,7 @@ const You_might_also_like = ({ categoryPro }) => {
         return Math.ceil(Math.random() * (max - min) + min)
     }
 
-    const data_pro_other = data.slice(randomNum(0, 8), randomNum(9, 13));
+    const data_pro_other = allProduct.slice(randomNum(0, 8), randomNum(9, 13));
     const handelData = data_pro_other.slice(0, 4);
 
 
@@ -93,7 +80,7 @@ const You_might_also_like = ({ categoryPro }) => {
 
                                             <div className="price_btn d-flex">
                                                 <p>${product.price}</p>
-                                                <Button variant="danger" onClick={()=> dispatch(cartActions.addItem(product))}>Add To Cart</Button>
+                                                <Button variant="danger" onClick={() => dispatch(cartActions.addItem(product))}>Add To Cart</Button>
                                             </div>
                                         </div>
                                     </Col>

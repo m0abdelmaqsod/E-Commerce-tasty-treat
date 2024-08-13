@@ -11,8 +11,15 @@ import { IoMdAlert } from "react-icons/io";
 
 
 
+import imgBgAll from "../../../assets/images/e4c70a70d42588df1e33146f414c4d15 bg.jpg";
+import imgLogo from "../../../assets/images/res-logo.png";
+import imgForm from "../../../assets/images/bg_login.jpg";
+
+
+
+
 const Signup = () => {
-    
+
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [])
@@ -56,7 +63,7 @@ const Signup = () => {
         <>
             <section className='create_account'>
                 <div className="bg_create_account">
-                    <img src="../../../../public/images/e4c70a70d42588df1e33146f414c4d15 bg.jpg" alt="" />
+                    <img src={imgBgAll} alt="" />
                 </div>
 
                 <div className="div_blur">
@@ -66,7 +73,7 @@ const Signup = () => {
                                 <Col className='p-0' sm='12' md='12' lg='5' xl='5'>
                                     <div className="div_form">
                                         <div className="logo_img">
-                                            <img src="../../../../public/images/res-logo.png" alt="" />
+                                            <img src={imgLogo} alt="" />
                                         </div>
 
                                         <h5>Create Account</h5>
@@ -143,7 +150,7 @@ const Signup = () => {
 
                                 <Col className='p-0' sm='12' md='12' lg='7' xl='7'>
                                     <div className="bg_img_account">
-                                        <img src="../../../../public/images/bg_login.jpg" alt="" />
+                                        <img src={imgForm} alt="" />
                                     </div>
                                 </Col>
                             </Row>

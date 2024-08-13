@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './styles/home.css';
 import Header from '../../components/home/header/Header';
 import Filter_popular_foods from '../../components/home/filter_popular_foods/Fil_popular_foods'

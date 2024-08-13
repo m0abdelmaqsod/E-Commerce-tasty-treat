@@ -6,6 +6,12 @@ import './styles/header.css'
 import { Link } from 'react-router-dom';
 
 
+
+
+import imgHead from "../../../assets/images/hero.png"
+
+
+
 const Header = () => {
     return (
         <>
@@ -46,7 +52,7 @@ const Header = () => {
 
                         <Col >
                             <div className="img_header">
-                                <img className='w-100' src="../../../../public/images/hero.png" alt="" />
+                                <img className='w-100' src={imgHead} alt="" />
                             </div>
                         </Col>
                     </Row>

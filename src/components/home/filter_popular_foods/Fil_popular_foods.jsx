@@ -7,6 +7,16 @@ import { cartActions } from '../../../store/shopping-cart/cartSlice';
 import { fetchProduct } from '../../../store/products/apiPro';
 
 
+
+
+import img1 from "../../../assets/images/hamburger.png"; 
+import img2 from "../../../assets/images/pizza.png"; 
+import img3 from "../../../assets/images/bread.png"; 
+
+
+
+
+
 const Fil_popular_foods = () => {
 
     const dispatch = useDispatch();
@@ -39,21 +49,21 @@ const Fil_popular_foods = () => {
 
                             <li>
                                 <button onClick={() => setBtnCategory("burger")} className={btnCategory === "burger" ? "activeNavFilter" : ""}>
-                                    <img src="../../../../public/images/hamburger.png" alt="" />
+                                    <img src={img1} alt="" />
                                     <span>Burger</span>
                                 </button>
                             </li>
 
                             <li>
                                 <button onClick={() => setBtnCategory("pizza")} className={btnCategory === "pizza" ? "activeNavFilter" : ""}>
-                                    <img src="../../../../public/images/pizza.png" alt="" />
+                                    <img src={img2} alt="" />
                                     <span>Pizza</span>
                                 </button>
                             </li>
 
                             <li>
                                 <button onClick={() => setBtnCategory("bread")} className={btnCategory === "bread" ? "activeNavFilter" : ""}>
-                                    <img src="../../../../public/images/bread.png" alt="" />
+                                    <img src={img3} alt="" />
                                     <span>Bread</span>
                                 </button>
                             </li>
