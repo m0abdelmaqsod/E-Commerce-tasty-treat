@@ -13,6 +13,13 @@ import 'swiper/css/pagination';
 import { Pagination } from 'swiper/modules';
 
 
+import img1 from "../../../assets/images/ava-1.jpg";
+import img2 from "../../../assets/images/ava-2.jpg";
+import img3 from "../../../assets/images/ava-3.jpg";
+import img4 from "../../../assets/images/ava-4.jpg";
+import img5 from "../../../assets/images/network.png";
+
+
 
 
 
@@ -41,7 +48,7 @@ const Testimonials_com = () => {
                                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quis consectetur sit magnam labore earum dolores, veritatis, nemo molestias, magni id dolore exercitationem? Accusantium dicta minima facilis reiciendis quasi ipsa."</p>
 
                                             <div className="name_com d-flex mt-5">
-                                                <img src="../../../../public/images/ava-1.jpg" alt="" />
+                                                <img src={img1} alt="" />
                                                 <h5>Ahmed Belal</h5>
                                             </div>
                                         </div>
@@ -52,7 +59,7 @@ const Testimonials_com = () => {
                                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quis consectetur sit magnam labore earum dolores, veritatis, nemo molestias, magni id dolore exercitationem? Accusantium dicta minima facilis reiciendis quasi ipsa."</p>
 
                                             <div className="name_com d-flex mt-5">
-                                                <img src="../../../../public/images/ava-2.jpg" alt="" />
+                                                <img src={img2} alt="" />
                                                 <h5>Ahmed Belal</h5>
                                             </div>
                                         </div>
@@ -63,7 +70,7 @@ const Testimonials_com = () => {
                                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quis consectetur sit magnam labore earum dolores, veritatis, nemo molestias, magni id dolore exercitationem? Accusantium dicta minima facilis reiciendis quasi ipsa."</p>
 
                                             <div className="name_com d-flex mt-5">
-                                                <img src="../../../../public/images/ava-3.jpg" alt="" />
+                                                <img src={img3} alt="" />
                                                 <h5>Ahmed Belal</h5>
                                             </div>
                                         </div>
@@ -74,7 +81,7 @@ const Testimonials_com = () => {
                                             <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat quis consectetur sit magnam labore earum dolores, veritatis, nemo molestias, magni id dolore exercitationem? Accusantium dicta minima facilis reiciendis quasi ipsa."</p>
 
                                             <div className="name_com d-flex mt-5">
-                                                <img src="../../../../public/images/ava-4.jpg" alt="" />
+                                                <img src={img4} alt="" />
                                                 <h5>Ahmed Belal</h5>
                                             </div>
                                         </div>
@@ -86,7 +93,7 @@ const Testimonials_com = () => {
 
                         <Col sm="12" md="6" lg="6" xl="6">
                             <div className="div_img">
-                                <img src="../../../../public/images/network.png" alt="" />
+                                <img src={img5} alt="" />
                             </div>
                         </Col>
                     </Row>

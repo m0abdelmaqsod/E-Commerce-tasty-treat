@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 import './style/single_pro.css';
 import Single_pro_data from '../../components/singilePro/single_pro_data/Single_pro_data';
 import You_might_also_like from '../../components/singilePro/you_might_also_like/You_might_also_like';
@@ -13,6 +13,10 @@ const Single_pro = () => {
     const { singlePro } = useSelector(state => state.pro)
 
     document.title = `${singlePro.namePro}`;
+
+
+
+    console.log(singlePro);
 
 
 

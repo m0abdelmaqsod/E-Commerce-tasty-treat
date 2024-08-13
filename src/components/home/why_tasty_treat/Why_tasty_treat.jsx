@@ -6,6 +6,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 
+import img from "../../../assets/images/location.png";
+
+
 const Why_tasty_treat = () => {
     return (
         <>
@@ -16,7 +19,7 @@ const Why_tasty_treat = () => {
 
                         <Col sm="12" md="6" lg="6" xl="6">
                             <div className="img_why_tasty_treat">
-                                <img src="../../../../public/images/location.png" alt="" />
+                                <img src={img} alt="" />
                             </div>
                         </Col>
 

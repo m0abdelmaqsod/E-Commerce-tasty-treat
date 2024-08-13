@@ -13,7 +13,7 @@ const Footer = () => {
                         <Col className='mb-5' xl="3" lg="4" md="6" sm="12">
                             <div className="logo_footer">
                                 <Link to='/'>
-                                    <img src="../../../public/images/res-logo.png" alt="" />
+                                    <img src="../images/res-logo.png" alt="" />
                                     <h3>Testy Treat</h3>
                                 </Link>
                                 <p>
